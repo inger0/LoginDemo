@@ -1,0 +1,162 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#body {
+    width: 400px;
+    height: 780px;
+}
+
+/*整体div*/
+.signup-title {
+    width: 350px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 80px;
+}
+
+/*头部文字部分*/
+.text0 {
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    font-family: 宋体;
+}
+
+/*sign  up字体样式*/
+.text1 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 宋体;
+    position: relative;
+    top: 10px;
+}
+
+/*小字部分样式*/
+#photo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    right: 20px;
+}
+
+/*头像div*/
+.text4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 20px;
+    background: none;
+}
+
+#signup-form {
+    height: 240px;
+    margin: 0 auto;
+}
+
+#signup-form ul {
+    height: 40px;
+    margin: 0 auto;
+}
+
+#signup-form ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
+
+#signup-form span {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    text-align-last: right;
+    -webkit-text-align-last: justify;
+    -moz-text-align-last: justify;
+    margin-right: 10px;
+}
+
+.signup-input {
+    width: 300px;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+    z-index: 5;
+}
+
+.login-verify {
+    width: 280px;
+    height: 30px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+    z-index: 5;
+}
+
+/*注册信息样式*/
+
+#register-button {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*重置确定*/
+#register-button ul li {
+    width: 200px;
+    list-style: none;
+    display: inline;
+    margin: 0 auto;
+}
+
+.text5 {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: #5eb95e;
+}
+
+.text6 {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#text11 {
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 235px;
+    margin-right: 65px;
+    margin-buttom: 5px;
+}
+
+.register-bottom-text {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
