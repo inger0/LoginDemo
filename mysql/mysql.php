@@ -4,18 +4,15 @@
  */
 session_start();
 header("Content-Type: text/html; charset=UTF-8");
+include_once "../config.php";
 
 class mysql
 {
     private $mysqli;
-    private $host     = "localhost";
-    private $root     = "root";
-    private $password = "";
-    private $db       = "login";
 
     function __construct()
     {
-        $this->mysqli = new mysqli($this->host, $this->root, $this->password, $this->db);
+        $this->mysqli = new mysqli(config::MYSQL_HOST, config::MYSQL_USER, config::MYSQL_PASSWORD, config::MYSQL_DB);
         if (!$this->mysqli) {
             die("connect error！" . $this->mysqli->connect_error);
         }
