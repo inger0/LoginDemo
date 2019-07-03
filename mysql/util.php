@@ -37,11 +37,11 @@ class util
      */
     public static function response($status = 200, $message = '成功', $data = [])
     {
-        $response = [
+        $response = array(
             'status'  => $status,
             'message' => $message,
             'data'    => $data,
-        ];
+        );
 
         echo json_encode($response);
         exit;
