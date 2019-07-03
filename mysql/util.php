@@ -35,7 +35,7 @@ class util
      * @param string $message
      * @param array  $data
      */
-    public static function response($status = 200, $message = '成功', $data = [])
+    public static function response($status = 200, $message = '成功', $data = array())
     {
         $response = array(
             'status'  => $status,
